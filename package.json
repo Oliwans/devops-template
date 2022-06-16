@@ -1,0 +1,23 @@
+{
+  "name": "devops-template",
+  "version": "1.0.0",
+  "description": "<!--  * @Date: 2022-06-08 21:44:29  * @LastEditors: wangpeng  * @LastEditTime: 2022-06-08 21:45:32  * @FilePath: /devops-template/README.md --> # devops-template a node-docker devops server.",
+  "main": "server.js",
+  "scripts": {
+    "start": "serve . -p 3000",
+    "learn:nginx": "docker-compose -f learn-nginx.docker-compose.yaml up"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oliwans/devops-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oliwans/devops-template/issues"
+  },
+  "homepage": "https://github.com/Oliwans/devops-template#readme",
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}
